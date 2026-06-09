@@ -1,0 +1,170 @@
+/*--------------------------------------------------
+	上部ナビゲーションメニュー
+--------------------------------------------------*/
+#navigation
+{
+	width:700px;margin:16px auto;
+	border-color:#808080;
+	border-style:solid none;
+	border-width:1px 0;
+	padding: 4px 3px;
+}
+/*--------------------------------------------------
+	投稿フォーム
+--------------------------------------------------*/
+#bbsform
+{
+	width:600px;
+	margin-left:auto;
+	margin-right:auto;
+	text-align:left;
+}
+#bbsform table.postinfo
+{
+	margin:1.5em;
+	text-align:left;
+	font-size:1em;
+}
+/*--------------------------------------------------
+	スレッド全体
+--------------------------------------------------*/
+.thread_wrapper
+{
+	width:90%;
+	margin:16px auto;
+	border:1px solid;
+	text-align:right;
+	background-color:#FFFFFF;
+}
+/*--------------------------------------------------
+	検索結果記事
+--------------------------------------------------*/
+.result_article
+{
+	margin:16px;
+	text-align:left;
+	clear:both;
+}
+/*--------------------------------------------------
+	親記事
+--------------------------------------------------*/
+.thread_wrapper .parent_article
+{
+	margin:16px;
+	text-align:left;
+	clear:both;
+}
+/*--------------------------------------------------
+	子記事
+--------------------------------------------------*/
+.thread_wrapper .child_article
+{
+	width:90%;
+	margin-left:auto;
+	padding:16px;
+	border-top:1px solid;
+	text-align:left;
+	clear:both;
+}
+/*--------------------------------------------------
+	※※※
+--------------------------------------------------*/
+.thread_wrapper .parent_article form,
+.thread_wrapper .child_article form
+{
+	clear:both;
+}
+/*--------------------------------------------------
+	記事の題名
+--------------------------------------------------*/
+.thread_wrapper .parent_article span.title,
+.thread_wrapper .child_article span.title,
+.result_article span.title
+{
+	font-weight:bold;
+}
+/*--------------------------------------------------
+	記事の日付
+--------------------------------------------------*/
+.thread_wrapper .parent_article div.date,
+.thread_wrapper .child_article div.date,
+.result_article div.date
+{
+	text-align:right;
+}
+/*--------------------------------------------------
+	記事の内容（本文と画像の親要素）
+--------------------------------------------------*/
+.thread_wrapper .parent_article div.contents,
+.thread_wrapper .child_article div.contents,
+.result_article div.contents
+{
+	margin:1em 2em;overflow:auto;
+}
+/*--------------------------------------------------
+	記事の本文
+--------------------------------------------------*/
+.thread_wrapper .parent_article div.contents div.body,
+.thread_wrapper .child_article div.contents div.body,
+.result_article div.contents div.body
+{
+	float:left;
+}
+/*--------------------------------------------------
+	記事の画像
+--------------------------------------------------*/
+.thread_wrapper .parent_article div.contents img.userimage,
+.thread_wrapper .child_article div.contents img.userimage,
+.result_article div.contents img.userimage
+{
+	float:right;
+	border:0px;
+	vertical-align:middle;
+}
+/*--------------------------------------------------
+	記事の返信ボタンや編集ボタンを含む親要素
+--------------------------------------------------*/
+.thread_wrapper .parent_article div.panel,
+.thread_wrapper .child_article div.panel
+{
+	text-align:right;clear:both;
+}
+.thread_wrapper .parent_article div.panel form,
+.thread_wrapper .child_article div.panel form
+{
+	display: inline;
+}
+/*--------------------------------------------------
+	ヘルプ
+--------------------------------------------------*/
+#help
+{
+	width:700px;
+	margin-left:auto;
+	margin-right:auto;
+	border:1px solid #00F;
+	text-align:left;
+}
+
+/*--------------------------------------------------
+	追加要素
+--------------------------------------------------*/
+h1
+{
+color:#FF0000;
+font-size:1.5em;
+margin-top:10px;
+}
+body
+{
+background-image:url("http://bbs5.fc2.com/bbs/img/_768000/767928/bg/bg.gif");
+}
+.obbbs
+{
+color:#87CEEB;
+}
+.mdshi
+{
+width:60px;
+text-align:center;
+}
